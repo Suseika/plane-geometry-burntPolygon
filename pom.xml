@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.tendiwa</groupId>
+        <artifactId>meta</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>plane-geometry-scorchedPolygon</artifactId>
+    <packaging>jar</packaging>
+
+    <name>tendiwa-plane-geometry-scorchedPolygon</name>
+    <description>Algorithm for transforming a polygon into a list of polylines by removing parts of polygon's edges (scorching)</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.tendiwa</groupId>
+            <artifactId>plane-geometry</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
